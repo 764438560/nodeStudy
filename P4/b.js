@@ -1,0 +1,5 @@
+const {add,mul}= require('./a')
+const sum=add(10,20)
+const res=mul(100,200)
+console.log("结果",sum)
+console.log("乘法",res)
